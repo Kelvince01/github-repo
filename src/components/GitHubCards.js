@@ -15,14 +15,13 @@ class GitHubCards extends Component {
     const api_key = process.env.REACT_APP_API_KEY;
 
     let repo = [
-      baseURL(`covid-19-tracker`),
-      baseURL(`material-ui-medium-blog`),
-      baseURL(`github-readme-medium-card`),
-      baseURL(`react-youtube-search-clone`),
-      baseURL(`tamil-song-corpus`),
-      baseURL(`Nozama_Warriors`),
-      baseURL(`Nursery_Management`),
-      baseURL(`React-Medium-Blog`),
+      baseURL(`login-register`),
+      baseURL(`SMS`),
+      baseURL(`EMS`),
+      baseURL(`simple_ecommerce`),
+      baseURL(`TwilioSMS`),
+      baseURL(`JavaDesktopSudokuDemo`),
+      baseURL(`MailClientWin10App`),
     ];
 
     await Axios.get("https://github-lang-deploy.herokuapp.com/").then(
